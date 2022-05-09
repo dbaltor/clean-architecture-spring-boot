@@ -1,8 +1,9 @@
 package library.adapter.controller.dto;
 
-import lombok.ToString;
+import lombok.Data;
+import lombok.NonNull;
 
-@ToString
+@Data
 public class BooksRequest {
-    public Long bookIds[];
+    public @NonNull Long bookIds[];
 }
