@@ -3,6 +3,7 @@ package library.adapter.controller;
 import library.LibraryApplication;
 import library.adapter.controller.port.ReaderController;
 import library.dto.Reader;
+import library.adapter.controller.dto.BooksRequest;
 import library.usecase.port.ReaderService;
 import library.usecase.port.BookService;
 import library.domain.port.ReaderEntity;
